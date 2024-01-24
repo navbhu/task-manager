@@ -1,0 +1,36 @@
+databaseChangeLog:
+  - changeSet:
+      id: createTable-task
+      author: gatling
+      changes:
+        - createTable:
+            tableName: task
+            columns:
+              - column:
+                  name: id
+                  type: binary(16)
+                  constraints:
+                    primaryKey: true
+                    nullable: false
+              - column:
+                  name: user_id
+                  type: binary(16)
+                  constraints:
+                    nullable: false
+                    foreignKeyName: user_task_fk
+                    references: user(id)
+              - column:
+                  name: name
+                  type: varchar(255)
+                  constraints:
+                    nullable: false
+              - column:
+                  name: status
+                  type: varchar(255)
+                  constraints:
+                    nullable: false
+              - column:
+                  name: created
+                  type: datetime
+                  constraints:
+                    nullable: false
