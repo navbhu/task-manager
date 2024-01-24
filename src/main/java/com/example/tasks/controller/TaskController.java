@@ -1,9 +1,9 @@
-package com.example.gatling.controller;
+package com.example.tasks.controller;
 
-import com.example.gatling.dto.CreateTask;
-import com.example.gatling.dto.TaskDTO;
-import com.example.gatling.dto.UpdateTask;
-import com.example.gatling.service.TaskService;
+import com.example.tasks.dto.CreateTask;
+import com.example.tasks.dto.TaskDTO;
+import com.example.tasks.dto.UpdateTask;
+import com.example.tasks.service.TaskService;
 import jakarta.validation.Valid;
 import jakarta.validation.constraints.NotEmpty;
 import java.util.List;

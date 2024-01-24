@@ -1,6 +1,6 @@
-package com.example.gatling.model;
+package com.example.tasks.model;
 
-import com.example.gatling.dto.TaskStatus;
+import com.example.tasks.dto.TaskStatus;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
 import jakarta.validation.constraints.NotNull;

@@ -1,4 +1,4 @@
-package com.example.gatling.security;
+package com.example.tasks.security;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import io.jsonwebtoken.Claims;

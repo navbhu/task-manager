@@ -1,4 +1,4 @@
-package com.example.gatling.dto;
+package com.example.tasks.dto;
 
 public record UpdateTask(String name, TaskStatus status) {
 }

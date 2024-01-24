@@ -1,4 +1,4 @@
-package com.example.gatling.security;
+package com.example.tasks.security;
 
 import io.swagger.v3.oas.models.Components;
 import io.swagger.v3.oas.models.OpenAPI;

@@ -1,7 +1,7 @@
-package com.example.gatling.repository;
+package com.example.tasks.repository;
 
-import com.example.gatling.model.Task;
-import com.example.gatling.model.User;
+import com.example.tasks.model.Task;
+import com.example.tasks.model.User;
 import java.util.List;
 import java.util.UUID;
 import org.springframework.data.jpa.repository.JpaRepository;

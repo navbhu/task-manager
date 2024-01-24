@@ -1,6 +1,6 @@
-package com.example.gatling.security;
+package com.example.tasks.security;
 
-import com.example.gatling.model.User;
+import com.example.tasks.model.User;
 import io.jsonwebtoken.*;
 import jakarta.servlet.http.HttpServletRequest;
 import java.time.Duration;

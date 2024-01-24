@@ -1,13 +1,13 @@
-package com.example.gatling.service;
+package com.example.tasks.service;
 
-import com.example.gatling.dto.CreateTask;
-import com.example.gatling.dto.TaskDTO;
-import com.example.gatling.dto.TaskStatus;
-import com.example.gatling.dto.UpdateTask;
-import com.example.gatling.model.Task;
-import com.example.gatling.model.User;
-import com.example.gatling.repository.TaskRepository;
-import com.example.gatling.repository.UserRepository;
+import com.example.tasks.dto.CreateTask;
+import com.example.tasks.dto.TaskDTO;
+import com.example.tasks.dto.TaskStatus;
+import com.example.tasks.dto.UpdateTask;
+import com.example.tasks.model.Task;
+import com.example.tasks.model.User;
+import com.example.tasks.repository.TaskRepository;
+import com.example.tasks.repository.UserRepository;
 import java.time.Instant;
 import java.util.List;
 import java.util.UUID;

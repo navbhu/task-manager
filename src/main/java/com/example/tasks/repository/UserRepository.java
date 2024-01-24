@@ -1,6 +1,6 @@
-package com.example.gatling.repository;
+package com.example.tasks.repository;
 
-import com.example.gatling.model.User;
+import com.example.tasks.model.User;
 import java.util.Optional;
 import java.util.UUID;
 import org.springframework.data.jpa.repository.JpaRepository;

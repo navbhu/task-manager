@@ -1,8 +1,8 @@
-package com.example.gatling.controller;
+package com.example.tasks.controller;
 
-import com.example.gatling.dto.NewUser;
-import com.example.gatling.dto.UserLogin;
-import com.example.gatling.service.AuthService;
+import com.example.tasks.dto.NewUser;
+import com.example.tasks.dto.UserLogin;
+import com.example.tasks.service.AuthService;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;

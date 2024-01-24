@@ -1,10 +1,10 @@
-package com.example.gatling;
+package com.example.tasks;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class GatlingApplicationTests {
+class TaskManagerApplicationTests {
 
 	@Test
 	void contextLoads() {

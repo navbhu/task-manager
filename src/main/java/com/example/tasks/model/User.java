@@ -1,4 +1,4 @@
-package com.example.gatling.model;
+package com.example.tasks.model;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;

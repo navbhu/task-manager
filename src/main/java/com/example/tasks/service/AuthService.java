@@ -1,11 +1,11 @@
-package com.example.gatling.service;
+package com.example.tasks.service;
 
-import com.example.gatling.dto.NewUser;
-import com.example.gatling.dto.UserJWT;
-import com.example.gatling.dto.UserLogin;
-import com.example.gatling.model.User;
-import com.example.gatling.repository.UserRepository;
-import com.example.gatling.security.JwtUtil;
+import com.example.tasks.dto.NewUser;
+import com.example.tasks.dto.UserJWT;
+import com.example.tasks.dto.UserLogin;
+import com.example.tasks.model.User;
+import com.example.tasks.repository.UserRepository;
+import com.example.tasks.security.JwtUtil;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.nimbusds.jwt.JWT;
 import com.nimbusds.jwt.JWTParser;

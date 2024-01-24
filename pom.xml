@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.example</groupId>
-	<artifactId>gatling</artifactId>
+	<artifactId>tasks</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>gatling</name>
-	<description>Demo project for Gatling</description>
+	<name>task-manager</name>
+	<description>Demo project for TaskManager</description>
 	<properties>
 		<java.version>17</java.version>
 	</properties>
